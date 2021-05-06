@@ -13,6 +13,6 @@
         <a href="{{article.id}}">{{ article.title }}</a> | {{ article.name }} | {{ article.cdate|date:"D d M Y" }}
     </div>
     {% endfor %}
-    <a href="http://52.78.208.80/com/write/">쓰기</a>
+    <a href="{% url 'write' %}">쓰기</a>
 </body>
 </html>
